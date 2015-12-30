@@ -1,0 +1,15 @@
+=size($dimension, $clamp: max)
+  @media screen and ( #{$clamp}-width: $dimension )
+    @content
+
+=mobile
+  +size(640px)
+    @content
+
+=tablet
+  +size(800px)
+    @content
+
+=wide
+  +size(1400px, min)
+    @content
