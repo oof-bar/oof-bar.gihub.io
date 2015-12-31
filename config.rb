@@ -73,6 +73,9 @@ end
 
 activate :directory_indexes
 
+# Markdown Settings
+set :markdown, smartypants: true
+
 # Custom Helper Methods
 require "lib/helpers"
 helpers Oof
