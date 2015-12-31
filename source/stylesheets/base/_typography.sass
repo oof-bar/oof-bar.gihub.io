@@ -1,6 +1,9 @@
 html
+  font-family: $type-family-sans
+  font-weight: 500
   font-size: $type-size-base
   line-height: $type-leading-base
+  font-variant-alternates: stylistic(user-defined-ident)
 
 h1,
 h2,
@@ -13,3 +16,10 @@ h6
 
 p
   margin: 0 0 1rem 0
+
+a
+  color: inherit
+  &:hover
+    font-style: italic
+    font-weight: 500
+

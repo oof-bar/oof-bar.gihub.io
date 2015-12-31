@@ -13,4 +13,10 @@ html
     = javascript_include_tag  'app'
 
   body class="#{page_classes}"
-    = yield
+    = partial 'partials/header'
+
+    main
+      = yield
+
+    = partial 'partials/footer'
+

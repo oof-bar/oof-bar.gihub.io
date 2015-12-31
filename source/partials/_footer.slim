@@ -1,0 +1,11 @@
+footer
+  section
+    article.info
+      .profile
+      .contact
+        address = markdown data.studio.address
+        .email
+          = mail_to data.studio.email
+    article.colophon
+      .copyright
+        = "©#{Time.now.strftime('%Y')}, oof. LLC"
