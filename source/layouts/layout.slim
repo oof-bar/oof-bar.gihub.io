@@ -6,6 +6,9 @@ html
     /! Always force latest IE rendering engine or request Chrome Frame
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
 
+    / Viewport
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
     /! Use title if it's in the page YAML frontmatter
     title = current_page.data.title || data.site.title
 
@@ -16,7 +19,11 @@ html
     = partial 'partials/header'
 
     main
-      = yield
+      section
+        article.page-content
+          = yield
 
     = partial 'partials/footer'
 
+
+    = partial 'partials/util/font-loader'

@@ -6,6 +6,8 @@ An interdisciplinary studio based in Portland.
 
 We design and build interactive experiences for clients and partners that share our committment to knowledge and opportunity.
 
+…
+
 Typically, we take on projects that involve a combination of:
 
 - Strategy
@@ -13,6 +15,8 @@ Typically, we take on projects that involve a combination of:
 - User experience & interface design
 - Visual design
 - Front- and back-end web development
+
+…
 
 Most recently, we developed a flexible identity system for [Tola](http://toladata.com/), a new suite of project health monitoring web applications built by Mercy Corps. We later extended the brand by creating a comprehensive UI styleguide.
 

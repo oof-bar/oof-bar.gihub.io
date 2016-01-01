@@ -4,6 +4,11 @@ html
   font-size: $type-size-base
   line-height: $type-leading-base
   font-variant-alternates: stylistic(user-defined-ident)
+  color: $color-oof
+
+  +mobile
+    font-size: $type-size-mobile
+    line-height: $type-leading-mobile
 
 h1,
 h2,
@@ -16,9 +21,24 @@ h6
 
 h1
   font-weight: 900
+  font-size: 2rem
 
 p
   margin: 0 0 1rem 0
 
 strong
   font-weight: 900
+
+ul
+  padding-left: 0
+
+  li
+    padding-left: 1rem
+    list-style: none
+    position: relative
+
+    &::before
+      content: '-'
+      position: absolute
+      top: 0
+      left: 0

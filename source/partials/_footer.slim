@@ -2,10 +2,13 @@ footer
   section
     article.info
       .profile
+        = markdown data.studio.profile
       .contact
         address = markdown data.studio.address
         .email
           = mail_to data.studio.email
+          
+  section    
     article.colophon
       .copyright
         = "©#{Time.now.strftime('%Y')}, oof. LLC"

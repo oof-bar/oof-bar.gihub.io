@@ -1,14 +1,26 @@
 body
-  margin: 2rem
+  background-color: $color-white
+
+section
+  padding: 2rem
+
+  &:not(:last-child)
+    padding-bottom: 0
 
   +mobile
-    margin: 1rem
+    padding: 1rem
 
-
-
+article
+  +outer-container
+  
 a
   color: inherit
   
   &:hover
     text-decoration: none
     font-style: italic
+
+// Misc
+
+address
+  font-style: normal
