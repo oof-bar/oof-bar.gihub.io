@@ -18,11 +18,11 @@ Typically, we take on projects that involve a combination of:
 
 …
 
-Most recently, we developed a flexible identity system for <a href="http://toladata.com/" target="_blank">Tola</a>, a new suite of project health monitoring web applications built by Mercy Corps. We later extended the brand by creating a comprehensive UI style guide.
+Most recently, we designed and developed the website and online shop for <a href="https://upperleftroasters.com/" target="_blank">Upper Left Roasters</a>, in collaboration with <a href="http://thepressure.org/" target="_blank">The Pressure</a>. We were asked to translate the existing brand and aesthetic to the web, drawing inspiration from their beautiful café and roastery in Southeast Portland.
+
+Mercy Corps asked us to develop a flexible identity system and UI style guide for <a href="http://toladata.com/" target="_blank">Tola</a>, their new suite of project health monitoring web applications.
 
 We also built a prototype for Mercy Corps’ <a href="http://mercycorps.github.io/InvestMap/" target="_blank">INVEST project</a> that combines data-visualization and narrative in a novel map-based interface.
-
-<a href="https://upperleftroasters.com/" target="_blank">Upper Left Roasters</a>' website and online shop was a collaboration with <a href="http://thepressure.org/" target="_blank">The Pressure</a>. We were asked to translate the existing brand and aesthetic to the web, drawing inspiration from their beautiful café and roastery in Southeast Portland.
 
 We have an ongoing relationship with <a href="https://scripted.org/" target="_blank">ScriptEd</a>, a New York-based non-profit that makes technology education available to underserved high school students. Originally, we built their website, but have since extended its functionality and produced related materials as they've grown, exponentially.
 
