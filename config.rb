@@ -82,7 +82,9 @@ helpers Oof
 
 # Deployment Options
 activate :deploy do |deploy|
-  deploy.method = :git
+  deploy.method = :rsync
   deploy.build_before = true
-  deploy.branch = 'master'
+  deploy.host = 'oof.studio'
+  deploy.user = 'oofstudio'
+  deploy.path = '/home/oofstudio/oof.studio/'
 end
