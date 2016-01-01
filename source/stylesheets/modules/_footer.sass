@@ -2,14 +2,32 @@ footer
   background-color: $color-oof
   color: $color-white
 
-
-  .profile,
-  .contact
-    +span-columns(6)
+  section
+    padding-top: 2rem
+    padding-bottom: 2rem
 
     +mobile
-      +span-columns(12)
+      padding-top: 2rem
+      padding-bottom: 1rem
 
-  .copyright
-    font-size: 0.5rem
-    color: rgba($color-white, 0.5)
+    .profile,
+    .contact
+      +span-columns(5)
+
+      +tablet
+        +span-columns(12)
+
+    .contact
+      +shift(1)
+
+      +tablet
+        +shift(0)
+
+    .profile,
+    address,
+    .email
+      margin-bottom: 1rem
+
+    .copyright
+      font-size: 0.5rem
+      color: rgba($color-white, 0.5)
