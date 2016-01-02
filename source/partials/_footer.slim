@@ -10,5 +10,9 @@ footer
           
   section    
     article.colophon
+      .social
+        - data.studio.social.each do |(name, url)|
+          span.link = link_to name, url, target: '_blank'
+
       .copyright
         = "©#{Time.now.strftime('%Y')}, oof. LLC"

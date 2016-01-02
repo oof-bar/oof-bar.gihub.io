@@ -28,6 +28,24 @@ footer
     .email
       margin-bottom: 1rem
 
-    .copyright
+    .colophon
       font-size: 0.5rem
       color: rgba($color-white, 0.5)
+
+    .copyright
+      +span-columns(6)
+      text-align: right
+
+      +mobile
+        text-align: left
+
+    .social
+      +span-columns(6)
+
+      .link
+        display: inline-block
+        margin-right: 1rem
+
+        +mobile
+          margin-right: 0
+          display: block
