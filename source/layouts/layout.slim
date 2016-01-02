@@ -4,13 +4,6 @@ html
     /! Use title if it's in the page YAML frontmatter
     title = current_page.data.title || data.site.title
 
-    meta property="og:title" content="#{data.site.title}"
-    meta property="og:image" content="#{data.site.canonical_url}/images/sharing_image.jpg"
-    meta property="og:url" content="#{data.site.canonical_url}"
-    meta property="og:description" content="#{data.site.description}"
-
-    meta name="keywords" content="#{data.site.keywords.join(', ')}"
-
     meta charset="utf-8"
 
     /! Always force latest IE rendering engine or request Chrome Frame
@@ -19,8 +12,9 @@ html
     / Viewport
     meta name="viewport" content="width=device-width, initial-scale=1"
 
-    = favicon_tag 'images/favicon.ico'
+    = partial 'partials/util/_meta'
 
+    = favicon_tag 'images/favicon.ico'
     = stylesheet_link_tag 'app'
 
   body class="#{page_classes}"
