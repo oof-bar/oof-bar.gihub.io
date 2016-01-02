@@ -22,9 +22,6 @@ window.oof.Bubbles = class Bubbles
       @track e
       @draw()
 
-    $(document).on 'click', (e) =>
-      @clear()
-
   scale: ->
     if window.hasOwnProperty('devicePixelRatio') then window.devicePixelRatio else 1
 
