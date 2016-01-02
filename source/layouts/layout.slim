@@ -16,7 +16,6 @@ html
     title = current_page.data.title || data.site.title
 
     = stylesheet_link_tag 'app'
-    = javascript_include_tag  'app'
 
   body class="#{page_classes}"
     = partial 'partials/header'
@@ -28,5 +27,13 @@ html
 
     = partial 'partials/footer'
 
+    = partial 'partials/bubble-canvas'
+
     = partial 'partials/util/font-loader'
     = partial 'partials/util/analytics'
+
+    javascript:
+      window.oof = {}
+      
+    = javascript_include_tag  'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'
+    = javascript_include_tag  'app'
