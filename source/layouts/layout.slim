@@ -1,6 +1,9 @@
 doctype html
 html
   head
+    /! Use title if it's in the page YAML frontmatter
+    title = current_page.data.title || data.site.title
+
     meta charset="utf-8"
 
     /! Always force latest IE rendering engine or request Chrome Frame
@@ -10,10 +13,6 @@ html
     meta name="viewport" content="width=device-width, initial-scale=1"
 
     = favicon_tag 'images/favicon.ico'
-
-
-    /! Use title if it's in the page YAML frontmatter
-    title = current_page.data.title || data.site.title
 
     = stylesheet_link_tag 'app'
 
